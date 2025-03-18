@@ -1,6 +1,6 @@
 .PHONY: all push clean
 
-VERSION=1.0.0
+VERSION=1.0.1
 IMAGE_NAME=linux-build-tools
 
 all:

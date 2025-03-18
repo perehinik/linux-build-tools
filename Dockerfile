@@ -29,7 +29,14 @@ RUN apt-get install -y \
 	g++ \
 	tar \
 	gzip \
-	cpio
+	cpio \
+	udev
+
+# Filesystem
+RUN apt-get install -y \
+	parted \
+	dosfstools \
+	fdisk
 
 RUN apt-get clean
 
